@@ -18,3 +18,4 @@ to achieve this Instead of treating customers as a single group, this dashboard 
 # Link of PowerBI Dashboard File, Screenshots and Video drive folder:
 https://drive.google.com/drive/folders/1MAm_RTqP0BHrA_z6q7Da2rG-VNOjFeP3?usp=sharing
 
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/ff935870-193f-4e48-9a20-6aca1a6780c0" />
