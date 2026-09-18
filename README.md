@@ -61,11 +61,16 @@ https://drive.google.com/file/d/1eG1IYOXO8DgVapl6BcOvjU51v4q91fIJ/view?usp=shari
 1. **Link of Dashboard Power BI**
 https://drive.google.com/file/d/1R4TebYwQlMR8hKhiU5HaKBVpA6tVGwe5/view?usp=sharing
 
-2. **Link of recorded video explaining the dashboard**
+3. **Link of recorded video explaining the dashboard**
 https://drive.google.com/file/d/1tLPelwMfqmQhTUbBsMAGpTOhJZpQ-z85/view?usp=sharing
 
-3. **Link of Dashboard Screenshots**
+4. **Link of Dashboard Screenshots**
 https://drive.google.com/drive/folders/1nVX5dMj9qQu98lcKaelSiTeJtYhqtlY_?usp=sharing
+
+5. **Link of Dashboard Screenshots PDF**
+https://drive.google.com/file/d/1z7PkXY-H0iUbXKxy5O9uXYyQp0ACnlyJ/view?usp=sharing
+
+6. **Link of Demo recorded video**
 
 
 # Major Key Insights and Explanations for Paisabazzar
