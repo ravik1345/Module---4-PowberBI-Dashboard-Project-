@@ -1,22 +1,13 @@
-# Link of Video Module 4 Power BI Project
-https://drive.google.com/file/d/1tLPelwMfqmQhTUbBsMAGpTOhJZpQ-z85/view?usp=sharing
-
-# Link of Power BI (pbix)
-https://drive.google.com/file/d/1R4TebYwQlMR8hKhiU5HaKBVpA6tVGwe5/view?usp=sharing
-
-# Link of Dashboard Screenshots of Power BI
-https://drive.google.com/drive/folders/1nVX5dMj9qQu98lcKaelSiTeJtYhqtlY_?usp=sharing
-
+# Problem Statement or Business Objective:
+# Paisabazaar Bank Fraud Analysis
+Paisabazaar is a financial services company that assists customers in finding and applying for various banking and credit products. The credit score of a person is a significant metric used by financial institutions to determine the likelihood that an individual will repay their loans or credit balances. Therefore we are going to do a comprehensive analysis of Paisabazaar dataset to find out how various important metrics, such as Annual Income, Delay Payment, age, occupation and many others, influenced the credit scores. Credit scores can help Paisabazaar enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. So let's begin. 
+First of all we have to make our data clean, remove duplicates and outliers that I have done through capstone project Module-2, here I did little a bit some like changes group by using Power Query Editor.
 
 # Dataset Selection
 
 For this EDA project, I have chosen the "Paisabazzar" dataset. This dataset Consist many attributes such as Age, Occupation, Payment Behavior, Annual Income, In Hand Salary and so on. 'Paisabazzar' dataset is a good for exploration in details to get significant business insights that will assist paisabazzar to enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. 
 
-# Paisabazaar Bank Fraud Analysis
-Paisabazaar is a financial services company that assists customers in finding and applying for various banking and credit products. The credit score of a person is a significant metric used by financial institutions to determine the likelihood that an individual will repay their loans or credit balances. Therefore we are going to do a comprehensive analysis of Paisabazaar dataset to find out how various important metrics, such as Annual Income, Delay Payment, age, occupation and many others, influenced the credit scores. Credit scores can help Paisabazaar enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. So let's begin. 
-First of all we have to make our data clean, remove duplicates and outliers that I have done through capstone project Module-2, here I did little a bit some like changes group by using Power Query Editor.
-
-# Dashboard Objectives:
+# Dashboard Objectives or Problem Areas to Explore::
 The primary objective of this dashboard is to optimize Paisabazaar’s credit assessment framework by translating complex borrower behavioral profiles into interactive, visual risk profiles. By tracking how financial and demographic metrics influence credit brackets, the analytics aims to:
 
 ## 1. Reduce Loan Default Risks
@@ -24,7 +15,7 @@ Isolate high-risk indicators (like specific thresholds of payment delays or vola
 ## 2. Personalized Financial Advice
 Enable Paisabazaar’s customer-facing platforms to offer targeted financial recommendations, helping "Standard" and "Poor" tier customers identify their specific credit bottlenecks and navigate towards a "Good" rating.
 
-to achieve this Instead of treating customers as a single group, this dashboard segments them into three distinct risk tiers: Good, Standard, and Poor. based on that we are going to look each metrics and find out that which metrics are more important to identify Risk and offer personalized financial advice to their customers
+to achieve this Instead of treating customers as a single group, this dashboard segments them into three distinct risk tiers: Good, Standard, and Poor. based on that we are going to look each metrics and find out that which metrics are more important to identify Risk and offer personalized financial advice to customers.
 
 # Dataset Details:
 
@@ -60,6 +51,18 @@ https://drive.google.com/file/d/1eG1IYOXO8DgVapl6BcOvjU51v4q91fIJ/view?usp=shari
 * **'Payment_Behaviour'** - Spending and repayment category profile (e.g., Low spent Small value, High spent Large value).
 * **'Monthly_Balance'** - The disposable cash remaining in the customer's pocket at the end of the month.
 * **'Credit_Score'** - Target categorical ranking mapping risk into specific brackets (Good, Standard, Poor).
+
+
+# Deliverables
+
+1. **Link of Dashboard Power BI**
+https://drive.google.com/file/d/1R4TebYwQlMR8hKhiU5HaKBVpA6tVGwe5/view?usp=sharing
+
+2. **Link of recorded video explaining the dashboard**
+https://drive.google.com/file/d/1tLPelwMfqmQhTUbBsMAGpTOhJZpQ-z85/view?usp=sharing
+
+3. **Link of Dashboard Screenshots**
+https://drive.google.com/drive/folders/1nVX5dMj9qQu98lcKaelSiTeJtYhqtlY_?usp=sharing
 
 
 # Major Key Insights and Explanations for Paisabazzar
@@ -125,7 +128,7 @@ Income level correlates much more strongly with the diversity of the user's fina
 
 This is the Drill Through target page. 
 
-In this page charts are perfect for spotting visual trends, In case if we need a data-dense view when conducting deep account audits. When we looking at any summary chart on the previous pages can right-click a data point and select 'Drill Through'. Power BI will instantly bring to this page, automatically filtering this matrix to show the micro-level numbers behind that specific group.
+In this page charts are perfect for spotting visual trends, In case if we need a data dense view when conducting deep analysis. When we looking at any chart on the previous pages can right-click a data point and select 'Drill Through'. Power BI will instantly bring to this page, automatically filtering this matrix to show the micro-level numbers behind that specific group.
 
 ### Observations
 Notice that the page is filtered down to the Standard credit score tier using our synchronized top slicers. This changes our view to an average delay of 19.04 days and an average outstanding debt of 1.20K.
@@ -141,9 +144,9 @@ Compare that to the Good row folder, these customers average less than 2 loans (
 <img width="1474" height="856" alt="Screenshot (5 )" src="https://github.com/user-attachments/assets/0b2fbf66-742f-4f42-977a-443dd9035545" />
 
 ### Observations
-Risky Behaviour Analysis page, which focuses on a hidden risk indicator, the Average Number of Credit Inquiries. In consumer lending, a sudden surge in credit inquiries means a customer is actively hunting for multiple new loans. This signals credit hunger, potential cash flow issues, or an upcoming financial crunch.
+Risky Behaviour Analysis page, which focuses on a hidden risk indicator, the Average Number of Credit Inquiries. In consumer lending, a sudden surge in credit inquiries means a customer is actively looking for multiple new loans. This signals credit hunger, potential cash flow issues, or an upcoming financial crunch.
 
-we see the Good credit segment. Their inquiry rate is incredibly low and stable, averaging between 1.98 and 2.21 inquiries, regardless of their spending habits. These customers are financially secure and only look for credit when necessary.
+When we see the Good credit segment. Their inquiry rate is incredibly low and stable, averaging between 1.98 and 2.21 inquiries, regardless of their spending habits. These customers are financially secure and only look for credit when necessary.
 
 Poor credit customers, inquiry volume spikes drastically, averaging between 6.63 and 8.02 inquiries per customer. The highest numbers belong to the 'Low spent Small value payments' cohort at 8.02 inquiries. This confirms our earlier insight, customers with weak credit scores who rely on small-value transactions are constantly applying for new loans or cards. 
 
@@ -161,13 +164,13 @@ this is the Page Tooltip and entire page is hidden from the end-user. It doesn�
 <img width="1463" height="863" alt="Screenshot (7 )" src="https://github.com/user-attachments/assets/b3c56cf5-d5ff-4d79-8474-ba9abb294226" />
 
 ### Observations
-RAC of Num of delay Payment: In this Page the Decomposition Tree chart is to conduct a Root-Cause Analysis (RAC) to understand what underlying factors drive our portfolio baseline average of Delayed Payments.
+**RAC of Num of delay Payment:** In this Page the Decomposition Tree chart is to conduct a Root-Cause Analysis (RAC) to understand what underlying factors drive our portfolio baseline average of Delayed Payments.
 
 This decision tree chart maps specific consumer pathways to show how loan volumes, interest rates, utilization ratios, and spending behaviors culminate in a 'Poor' credit score.
 
-Root Node Base:  a baseline node of an Average number of delays at 13.07. The highlighted primary path branches to a consumer segment carrying 8 active loans, which shows a notable average of 19.75 payment delays. Interest Rate Node for 8-loan segment, the path flows into a high-risk pricing bracket with an interest rate of 28%, averaging 19.19 payment delays. 
+**Root Node Base:**  a baseline node of an Average number of delays at 13.07. The highlighted primary path branches to a consumer segment carrying 8 active loans, which shows a notable average of 19.75 payment delays. Interest Rate Node for 8-loan segment, the path flows into a high-risk pricing bracket with an interest rate of 28%, averaging 19.19 payment delays. 
 
-Target Risk Destination: The path continues through a 23.2% credit utilization ratio and a "High spent Medium value payments" transactional profile, ultimately terminating at a targeted terminal node of a 'Poor' credit score.
+**Target Risk Destination:** The path continues through a 23.2% credit utilization ratio and a "High spent Medium value payments" transactional profile, ultimately terminating at a targeted terminal node of a 'Poor' credit score.
 
 
 ### Interpretation
@@ -200,7 +203,8 @@ when income drops then there is a downward migration from 'Standard' to 'Poor' c
 
 # Conclusion
 
-After analysis of data I came to an conclusion that PowerBi dashboard yield a significant business key insight, The  Paisabazaar Credit Risk Monitor portfolio proves:
+After analysis of data I came to an conclusion that PowerBi dashboard yield a significant business key insight. 
+**The  Paisabazaar Credit Risk Monitor portfolio proves:**
 Richer and older customers with a long credit history can easily survive a few late payments. Their high income acts as a safety net, allowing them to keep a 'Good' credit score. Lower-income customers often get trapped. They take out too many loans at once (like the 8-loan) and get hit with high interest rates (28%). This makes it very hard to pay on time, dragging them down into the 'Poor' credit score bracket. A massive 83% of the people in this data fall into the 'Standard' or 'Poor' categories. This means the vast majority of the portfolio carries a high risk of not paying back what they owe.
 
 
