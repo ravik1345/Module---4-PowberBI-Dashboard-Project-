@@ -71,7 +71,7 @@ https://drive.google.com/drive/folders/1nVX5dMj9qQu98lcKaelSiTeJtYhqtlY_?usp=sha
 https://drive.google.com/file/d/1z7PkXY-H0iUbXKxy5O9uXYyQp0ACnlyJ/view?usp=sharing
 
 6. **Link of Demo recorded video**
-
+https://drive.google.com/file/d/1m-KUImxJLcDZXoIEReboTmovaz0AZF9C/view?usp=sharing
 
 # Major Key Insights and Explanations for Paisabazzar
 
