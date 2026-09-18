@@ -12,6 +12,7 @@ The primary objective of this dashboard is to optimize Paisabazaar’s credit as
 
 **1. Reduce Loan Default Risks**
 Isolate high-risk indicators (like specific thresholds of payment delays or volatile payment behaviors) to proactively deny or adjust high-risk applications.
+
 **2. Personalized Financial Advice**
 Enable Paisabazaar’s customer-facing platforms to offer targeted financial recommendations, helping "Standard" and "Poor" tier customers identify their specific credit bottlenecks and navigate towards a "Good" rating.
 
