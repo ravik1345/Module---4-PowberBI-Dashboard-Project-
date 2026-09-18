@@ -10,10 +10,12 @@ For this EDA project, I have chosen the "Paisabazzar" dataset. This dataset Cons
 # Dashboard Objectives or Problem Areas to Explore::
 The primary objective of this dashboard is to optimize Paisabazaar’s credit assessment framework by translating complex borrower behavioral profiles into interactive, visual risk profiles. By tracking how financial and demographic metrics influence credit brackets, the analytics aims to:
 
-**1. Reduce Loan Default Risks**
+**1. Reduce Loan Default Risks:**
+
 Isolate high-risk indicators (like specific thresholds of payment delays or volatile payment behaviors) to proactively deny or adjust high-risk applications.
 
-**2. Personalized Financial Advice**
+**2. Personalized Financial Advice:**
+
 Enable Paisabazaar’s customer-facing platforms to offer targeted financial recommendations, helping "Standard" and "Poor" tier customers identify their specific credit bottlenecks and navigate towards a "Good" rating.
 
 to achieve this Instead of treating customers as a single group, this dashboard segments them into three distinct risk tiers: Good, Standard, and Poor. based on that we are going to look each metrics and find out that which metrics are more important to identify Risk and offer personalized financial advice to customers.
