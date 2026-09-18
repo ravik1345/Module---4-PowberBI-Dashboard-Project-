@@ -1,7 +1,7 @@
 # Problem Statement or Business Objective:
 ## Paisabazaar Bank Fraud Analysis
 Paisabazaar is a financial services company that assists customers in finding and applying for various banking and credit products. The credit score of a person is a significant metric used by financial institutions to determine the likelihood that an individual will repay their loans or credit balances. Therefore we are going to do a comprehensive analysis of Paisabazaar dataset to find out how various important metrics, such as Annual Income, Delay Payment, age, occupation and many others, influenced the credit scores. Credit scores can help Paisabazaar enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. So let's begin. 
-First of all we have to make our data clean, remove duplicates and outliers that I have done through capstone project Module-2, here I did little a bit some like changes group by using Power Query Editor.
+First of all we have to make our data clean, remove duplicates and outliers that I have done through capstone project Module-2, here I did little a bit some  changes like group by using Power Query Editor.
 
 # Dataset Selection
 
