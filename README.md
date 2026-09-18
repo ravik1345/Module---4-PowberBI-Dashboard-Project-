@@ -7,13 +7,14 @@ https://drive.google.com/file/d/1R4TebYwQlMR8hKhiU5HaKBVpA6tVGwe5/view?usp=shari
 # Link of Dashboard Screenshots of Power BI
 https://drive.google.com/drive/folders/1nVX5dMj9qQu98lcKaelSiTeJtYhqtlY_?usp=sharing
 
-# Link of dataset: 
-https://drive.google.com/file/d/1eG1IYOXO8DgVapl6BcOvjU51v4q91fIJ/view?usp=sharing
 
-# PowberBI Dashboard Project - Paisabazaar Bank Fraud Analysis
+# Dataset Selection
+
+For this EDA project, I have chosen the "Paisabazzar" dataset. This dataset Consist many attributes such as Age, Occupation, Payment Behavior, Annual Income, In Hand Salary and so on. 'Paisabazzar' dataset is a good for exploration in details to get significant business insights that will assist paisabazzar to enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. 
+
+# Paisabazaar Bank Fraud Analysis
 Paisabazaar is a financial services company that assists customers in finding and applying for various banking and credit products. The credit score of a person is a significant metric used by financial institutions to determine the likelihood that an individual will repay their loans or credit balances. Therefore we are going to do a comprehensive analysis of Paisabazaar dataset to find out how various important metrics, such as Annual Income, Delay Payment, age, occupation and many others, influenced the credit scores. Credit scores can help Paisabazaar enhance their credit assessment processes like reduce the risk of loan defaults, and offer personalized financial advice to their customers. So let's begin. 
 First of all we have to make our data clean, remove duplicates and outliers that I have done through capstone project Module-2, here I did little a bit some like changes group by using Power Query Editor.
-
 
 # Dashboard Objectives:
 The primary objective of this dashboard is to optimize Paisabazaar’s credit assessment framework by translating complex borrower behavioral profiles into interactive, visual risk profiles. By tracking how financial and demographic metrics influence credit brackets, the analytics aims to:
@@ -24,6 +25,41 @@ Isolate high-risk indicators (like specific thresholds of payment delays or vola
 Enable Paisabazaar’s customer-facing platforms to offer targeted financial recommendations, helping "Standard" and "Poor" tier customers identify their specific credit bottlenecks and navigate towards a "Good" rating.
 
 to achieve this Instead of treating customers as a single group, this dashboard segments them into three distinct risk tiers: Good, Standard, and Poor. based on that we are going to look each metrics and find out that which metrics are more important to identify Risk and offer personalized financial advice to their customers
+
+# Dataset Details:
+
+- Dataset Name: 'Paisabazzar'
+- Source: Link to dataset 
+https://drive.google.com/file/d/1eG1IYOXO8DgVapl6BcOvjU51v4q91fIJ/view?usp=sharing
+
+### 📋 Data Dictionary & Key Attributes
+
+* **'ID'** - Unique identification tag for each individual transaction record.
+* **'Customer_ID'** - Unique identification tag assigned to each individual customer profile.
+* **'Month'** - The specific calendar month of data capture used to track trends over time.
+* **'Age'** - The age of the customer, used to assess demographic-based financial stability.
+* **'Occupation'** - The primary profession or industry sector of employment for the borrower.
+* **'Annual_Income'** - The gross total salary or revenue earned by the customer over a year.
+* **'Monthly_Inhand_Salary'** - The net take-home pay a customer receives each month after taxes and deductions.
+* **'Num_Bank_Accounts'** - Total number of open deposit and checking accounts owned by the individual.
+* **'Num_Credit_Card'** - Total number of active credit cards currently held under the customer's name.
+* **'Interest_Rate'** - The base percentage rate charged by lenders on the customer's open loans.
+* **'Num_of_Loan'** - Total number of active, outstanding loans currently assigned to the borrower.
+* **'Type_of_Loan'** - Categorical description detailing the types of debt held (e.g., Personal, Auto, Home Loan).
+* **'Delay_from_due_date'** - Average number of days past the monthly deadline a customer takes to make payments.
+* **'Num_of_Delayed_Payment'** - Count of individual payment instances that were missed or late over the tracking period.
+* **'Changed_Credit_Limit'** - The percentage change or variation applied to the customer’s available credit limit.
+* **'Num_Credit_Inquiries'** - Count of hard credit checks conducted by financial institutions due to new loan applications.
+* **'Credit_Mix'** - Classification of the variety and quality of credit accounts held (e.g., Bad, Standard, Good combination).
+* **'Outstanding_Debt'** - The remaining net monetary balance yet to be repaid to creditors.
+* **'Credit_Utilization_Ratio'** - Percentage of total available credit lines actively used by the customer.
+* **'Credit_History_Age'** - The lifespan of the customer’s credit profile, measured continuously in months.
+* **'Payment_of_Min_Amount'** - Indicator tracking whether the customer only pays the bare minimum due on credit bills.
+* **'Total_EMI_per_month'** - Total fixed Equated Monthly Installments paid toward servicing current liabilities.
+* **'Amount_invested_monthly'** - Total capital actively funneled into savings, stocks, mutual funds, or investment schemes.
+* **'Payment_Behaviour'** - Spending and repayment category profile (e.g., Low spent Small value, High spent Large value).
+* **'Monthly_Balance'** - The disposable cash remaining in the customer's pocket at the end of the month.
+* **'Credit_Score'** - Target categorical ranking mapping risk into specific brackets (Good, Standard, Poor).
 
 
 # Major Key Insights and Explanations for Paisabazzar
