@@ -58,7 +58,7 @@ https://drive.google.com/file/d/1eG1IYOXO8DgVapl6BcOvjU51v4q91fIJ/view?usp=shari
 
 # Deliverables
 
-1. **Link of Dashboard Power BI**
+1. **Link of Dashboard Power BI file (Pbix) Note: Download first then open with powberBI**
 https://drive.google.com/file/d/1R4TebYwQlMR8hKhiU5HaKBVpA6tVGwe5/view?usp=sharing
 
 3. **Link of recorded video explaining the dashboard**
